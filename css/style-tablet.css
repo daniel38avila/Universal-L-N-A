@@ -1,0 +1,24 @@
+header img {
+    width: 400px;
+}
+header p {
+    font-size: 1.6rem;
+    width: 90%;
+}
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+.quienes-somos h2, .nuestros-servicios h2, .a-quien-ofrecemos h2, .por-que-elejirnos h2, .titulo-trabjos h2, .action h2 {
+    font-size: 2.0rem;
+}
+.quienes-somos p,.nuestros-servicios p, .a-quien-ofrecemos p, .por-que-elejirnos p, .action p{
+    font-size: 1.6rem;
+}
+.trabajos figcaption {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+footer p {
+    font-size: 1.4rem;
+}

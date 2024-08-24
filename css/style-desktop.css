@@ -1,0 +1,21 @@
+header img {
+    width: 600px;
+}
+nav {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    list-style: none;
+    color: var(--color-principal);
+    font-size: 1.6rem;
+}
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}

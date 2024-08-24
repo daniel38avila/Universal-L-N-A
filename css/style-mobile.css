@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root {
+    --color-principal: #4C628F;
+    --color-segundario:#4C4C4C;
+    --color-fondo:#FFFFFF;
+    --color-letra:#000000;
+}
+body {
+    background-color: var(--color-fondo);
+}
+header {
+    padding: 16px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    width: 287px;
+}
+header p {
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--color-segundario);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+nav {
+    display: none;
+}
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 30px;
+}
+.imgs img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.quienes-somos {
+    padding-bottom: 30px;
+}
+.quienes-somos h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.quienes-somos p {
+    font-size: 1.4rem;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.nuestros-servicios {
+    padding-bottom: 30px;
+}
+.nuestros-servicios h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.nuestros-servicios p {
+    font-size: 1.4rem;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+}
+.a-quien-ofrecemos {
+    padding-bottom: 30px;
+}
+.a-quien-ofrecemos h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.a-quien-ofrecemos p {
+    font-size: 1.4rem;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+.por-que-elejirnos {
+    padding-bottom: 30px;
+}
+.por-que-elejirnos h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.por-que-elejirnos p {
+    font-size: 1.4rem;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+.titulo-trabjos h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.trabajos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    text-align: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 30px;
+}
+.trabajos figure {
+    margin: 0;
+}
+.trabajos figcaption {
+    font-size: 1.4rem;
+}
+.trabajos img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.action h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+.action p {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+a:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el cursor */
+}
+a {
+    text-decoration: none;
+    color: var(--color-principal);
+    cursor: pointer;
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
